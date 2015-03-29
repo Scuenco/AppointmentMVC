@@ -1,0 +1,12 @@
+﻿@model AppointmentMVC.Model.Appointment
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+<h4>@Model.Description</h4>
+<h4>@Model.WhoWith</h4>
+<h4>@Model.TimeStart</h4> 
+<h4>@Model.TimeEnd</h4> <br />
+    @Html.ActionLink("Edit", "EditAppt", new { id = @Model.AppointmentId }, new { @class = "btn btn-default" })
+    @Html.ActionLink("Delete", "DeleteAppt", new { id = @Model.AppointmentId }, new { @class = "btn btn-default" })

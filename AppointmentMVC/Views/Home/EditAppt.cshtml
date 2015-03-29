@@ -1,0 +1,19 @@
+﻿@model AppointmentMVC.Model.Appointment
+@{
+    ViewBag.Title = "EditAppt";
+}
+
+<h2>Edit Appointment</h2>
+<form method="post">
+    @Html.LabelFor(x => x.Description) <br />
+    @Html.TextBoxFor(x => x.Description) <br />
+    @Html.LabelFor(x => x.WhoWith) <br />
+    @Html.TextBoxFor(x => x.WhoWith) <br />
+    @Html.LabelFor(x => x.TimeStart) <br />
+    @Html.TextBoxFor(x => x.TimeStart) <br />
+    @Html.LabelFor(x => x.TimeEnd) <br />
+    @Html.TextBoxFor(x => x.TimeEnd)<br />
+    @Html.HiddenFor(x => x.AppointmentId)<br />
+    <button type="submit" class="btn btn-default">Submit</button>
+</form>
+

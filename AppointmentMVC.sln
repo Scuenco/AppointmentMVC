@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentMVC", "AppointmentMVC\AppointmentMVC.csproj", "{9088D2EA-0C31-4395-98D4-544B4B04D3AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentMVC.Model", "AppointmentMVC.Model\AppointmentMVC.Model.csproj", "{A932378C-3AA7-40C5-A10C-7339F9E3D751}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9088D2EA-0C31-4395-98D4-544B4B04D3AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9088D2EA-0C31-4395-98D4-544B4B04D3AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9088D2EA-0C31-4395-98D4-544B4B04D3AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9088D2EA-0C31-4395-98D4-544B4B04D3AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A932378C-3AA7-40C5-A10C-7339F9E3D751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A932378C-3AA7-40C5-A10C-7339F9E3D751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A932378C-3AA7-40C5-A10C-7339F9E3D751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A932378C-3AA7-40C5-A10C-7339F9E3D751}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

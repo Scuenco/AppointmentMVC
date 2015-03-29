@@ -1,0 +1,10 @@
+﻿@model List<AppointmentMVC.Model.Appointment>
+
+@foreach (var a in Model)
+{
+    <h3>@a.Description</h3>
+    <h3>@a.WhoWith</h3>
+    <h3>@a.TimeStart</h3>
+    <h3>@a.TimeEnd</h3>
+    @Html.ActionLink("Details", "Details", new { id = @a.AppointmentId }, new {@class = "btn btn-default" })
+}
